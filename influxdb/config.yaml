@@ -1,10 +1,9 @@
 ---
-name: InfluxDB 1.13
-version: 1.13.0
+name: InfluxDB 1.12
+version: 5.0.7
 slug: influxdb113
 description: Scalable datastore for metrics, events, and real-time analytics
-url: https://github.com/hassio-addons/addon-influxdb
-codenotary: codenotary@frenck.dev
+url: https://github.com/greenleafdesignandbuild-bot/addon-influxdb
 ingress: true
 ingress_port: 1337
 ingress_stream: true
@@ -15,7 +14,6 @@ hassio_api: true
 arch:
   - aarch64
   - amd64
-  - armv7
 init: false
 map:
   - share:rw
