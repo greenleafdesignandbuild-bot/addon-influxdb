@@ -65,13 +65,13 @@ LABEL \
     io.hass.arch="${BUILD_ARCH}" \
     io.hass.type="addon" \
     io.hass.version=${BUILD_VERSION} \
-    maintainer="vistalba <vistalba@users.noreply.github.com>" \
+    maintainer="Green Leaf Design & Build" \
     org.opencontainers.image.title="${BUILD_NAME}" \
     org.opencontainers.image.description="${BUILD_DESCRIPTION}" \
-    org.opencontainers.image.vendor="vistalba" \
-    org.opencontainers.image.authors="vistalba <vistalba@users.noreply.github.com>" \
+    org.opencontainers.image.vendor="Green Leaf Design & Build" \
+    org.opencontainers.image.authors="Green Leaf Design & Build" \
     org.opencontainers.image.licenses="MIT" \
-    org.opencontainers.image.url="https://github.com/vistalba/addon-influxdb" \
+    org.opencontainers.image.url="https://github.com/greenleafdesignandbuild-bot/addon-influxdb" \
     org.opencontainers.image.source="https://github.com/${BUILD_REPOSITORY}" \
     org.opencontainers.image.documentation="https://github.com/${BUILD_REPOSITORY}/blob/main/README.md" \
     org.opencontainers.image.created=${BUILD_DATE} \
